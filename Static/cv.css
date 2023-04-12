@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body>h1 {
+    color: #148C9F;
+
+}
+
+.competences {
+    margin-top: 30vh;
+}
+
+.haut {
+    background-color: #148C9F;
+    margin: 0;
+    margin-top: 20vh;
+    width: 100%;
+}
+
+.para1 {
+    width: 50%;
+}
+
+.para2 {
+    text-align: right;
+    margin-right: 2%;
+}
+
+.haut>div>p {
+    color: white;
+}
+
+.haut>div>h2 {
+    color: white;
+
+}
+
+body>img {
+    position: absolute;
+    border-radius: 50%;
+    right: 5vw;
+    top: 19vh;
+}
+
+.carregris {
+    border: solid 10px grey;
+    animation-name: carregris;
+    animation-duration: 3s;
+
+}
+
+#mescompetences {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    place-items: center;
+}
+
+.grid {
+
+    padding: 20px;
+    width: 100px;
+
+}
+
+/* @keyframes carregris {
+
+    0% {
+        opacity: 10%;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+
+} */
