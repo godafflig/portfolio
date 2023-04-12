@@ -1,0 +1,49 @@
+body {
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    padding: 1em;
+    flex-direction: column;
+}
+
+nav>ul {
+    display: none;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    gap: 10px;
+    margin: 5px 0px;
+}
+
+nav>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 390px) {
+    nav>ul {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+}
+
+.burger-open {
+    display: flex;
+}
