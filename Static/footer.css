@@ -1,0 +1,48 @@
+.footer-basic {
+    width: 100%;
+   margin-top: 10px;
+    bottom: 0;
+    color:#fff;
+    background-color:black;
+    }
+
+    .iconn{
+    display: flex;
+    justify-content:center;
+    }
+    #social{
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-top:15px;
+    height:25px;
+    width:25px;
+    }
+
+    .list-inline{
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        gap: 20px;
+
+    }
+
+    .item a{
+        margin-left: 6px;
+        color: white;
+    }
+
+
+    .footer-basic .copyright {
+    margin-top:10px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom: 0;
+    }
+    .prénom{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: -60px;
+    }
