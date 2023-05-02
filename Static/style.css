@@ -159,7 +159,7 @@ body>img {
 
 }
 
-@media (max-width: 490px) {
+@media (max-width: 390px) {
 
   body>img {
     position: absolute;
@@ -186,6 +186,7 @@ body>img {
   color: white;
 }
 
+
 .container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -201,6 +202,8 @@ body>img {
     place-items: center;
   }
 }
+
+
 
 .projects-section {
   text-align: center;
