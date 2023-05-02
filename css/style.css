@@ -8,7 +8,6 @@ body>h1 {
 }
 
 #competence {
-  width: 100%;
   background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255));
   text-align: center;
   padding: 10rem 2rem;
@@ -118,7 +117,6 @@ body>h1 {
 
 
 .haut {
-  width: 100%;
   background-color: #148C9F;
   text-align: center;
   padding: 5rem 5rem;
@@ -196,7 +194,7 @@ body>img {
   place-items: center;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 490px) {
   .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -208,7 +206,6 @@ body>img {
 
 
 .projects-section {
-  width: 100%;
   text-align: center;
   padding: 10rem 2rem;
   background: var(--main-blue);
