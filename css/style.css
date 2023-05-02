@@ -194,7 +194,7 @@ body>img {
   place-items: center;
 }
 
-@media (max-width: 490px) {
+@media (max-width: 390px) {
   .container {
     display: grid;
     grid-template-columns: 1fr;
